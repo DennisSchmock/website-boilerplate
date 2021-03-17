@@ -13,5 +13,6 @@ npm run build (builds to /dist)
 #### Analyze
 npm run build:analyze (run with http-server
 
+#### Inspired by:
 
 V 0.0.2
