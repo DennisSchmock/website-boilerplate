@@ -1,2 +1,2 @@
-# website-boilerplate
+# website boilerplate with React, Typescript and Styled Components
 
