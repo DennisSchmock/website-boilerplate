@@ -2,10 +2,10 @@
 
 Boilerplate setup complete with Webpack, Babel and ES-Lint. 
 
-Setup: 
+#### Setup: 
 npm i
 
-Run: 
+#### Run: 
 Development: npm run start (runs at port 8080)
 Build: npm run build (builds to /dist)
 Analyze: npm run build:analyze (run with http-server
