@@ -1,7 +1,13 @@
-export const queries = {
-  xs: '(max-width: 320px)',
-  sm: '(max-width: 720px)',
-  md: '(max-width: 1024px)',
+interface BreakpointProps {
+  [key: string]: string
 }
 
-export default { queries }
+export const breakpoints: BreakpointProps = {
+  xs: '480px',
+  sm: '768px',
+  md: '992px',
+  lg: '1200px',
+  xl: '1400px',
+}
+
+export default { breakpoints }

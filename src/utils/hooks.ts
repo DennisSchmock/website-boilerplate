@@ -14,12 +14,4 @@ const useViewport = (): { width: number } => {
 }
 
 // eslint-disable-next-line import/prefer-default-export
-
-export const MyComponent = (): boolean => {
-  const { width } = useViewport()
-  const breakpoint = 620
-  console.log(width)
-  return width < breakpoint
-}
-
 export { useViewport }
